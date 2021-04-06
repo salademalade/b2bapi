@@ -18,7 +18,8 @@
             curl_setopt($this->curl, CURLOPT_URL, "https://api.bytestobits.dev/text");
             curl_setopt($this->curl, CURLOPT_HTTPHEADER, $this->headers);
             curl_setopt($this->curl, CURLOPT_RETURNTRANSFER, 1);
-            curl_exec($this->curl);
+            $result = curl_exec($this->curl);
+            return $result;
         }
     }
 
