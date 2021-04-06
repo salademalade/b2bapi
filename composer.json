@@ -1,0 +1,14 @@
+{
+    "name": "ichbinderwooj/b2bapi",
+    "type": "library",
+    "require": {
+        "curl/curl": "^2.3"
+    },
+    "license": "GNU GENERAL PUBLIC LICENSE",
+    "authors": [
+        {
+            "name": "ichbinderwooj",
+            "email": "75523802+ichbinderwooj@users.noreply.github.com"
+        }
+    ]
+}
