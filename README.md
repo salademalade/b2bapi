@@ -6,7 +6,9 @@ Welcome to the repository for the PHP BytesToBits Wrapper.
 
 Write:
 
-```composer require ichbinderwooj/b2bapi```
+```
+composer require ichbinderwooj/b2bapi
+```
 
 in your command line to install this package.
 
@@ -26,3 +28,17 @@ For example:
 $btb = new BytesToBits($myToken);
 echo $btb->text();
 ```
+
+## methods
+
+`word() : string`
+
+returns a random word from the BytesToBits API.
+
+`text() : string`
+
+returns a random text from the BytesToBits API.
+
+`madlibs() : array("title", "variables", "text", "questions")`
+
+returns a madlib array from the BtesToBits API.
