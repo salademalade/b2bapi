@@ -17,3 +17,12 @@ To use this wrapper, declare a variable with the `BytesToBits` class and your to
 ```php
 $btb = new BytesToBits($myToken);
 ```
+
+Then you can use the methods of this class to access each endpoint.
+
+For example:
+
+```php
+$btb = new BytesToBits($myToken);
+echo $btb->text();
+```
