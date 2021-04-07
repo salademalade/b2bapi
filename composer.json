@@ -1,9 +1,6 @@
 {
     "name": "ichbinderwooj/b2bapi",
     "type": "library",
-    "require": {
-        "curl/curl": "^2.3"
-    },
     "license": "GPL-3.0-or-later",
     "authors": [
         {
