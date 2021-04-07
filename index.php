@@ -85,9 +85,9 @@
                 return json_decode($result, true);
             }
         }
-        function reddit() {
+        function reddit($subreddit, $limit=0) {
             $curl = curl_init();
-            curl_setopt($curl, CURLOPT_URL, $this->base_url."reddit");
+            curl_setopt($curl, CURLOPT_URL, $this->base_url."reddit?subreddit=".$subreddit.($limit ? "&limit=".$limit : ""));
             curl_setopt($curl, CURLOPT_HTTPHEADER, $this->headers);
             curl_setopt($curl, CURLOPT_HEADER, 0);
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
@@ -104,9 +104,9 @@
                 return json_decode($result, true);
             }
         }
-        function lyrics() {
+        function lyrics($song, $artist) {
             $curl = curl_init();
-            curl_setopt($curl, CURLOPT_URL, $this->base_url."lyrics");
+            curl_setopt($curl, CURLOPT_URL, $this->base_url."lyrics?song=".$song."&artist=".$artist);
             curl_setopt($curl, CURLOPT_HTTPHEADER, $this->headers);
             curl_setopt($curl, CURLOPT_HEADER, 0);
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);

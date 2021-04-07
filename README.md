@@ -42,3 +42,19 @@ returns a random text from the BytesToBits API.
 `madlibs() : array("title", "variables", "text", "questions")`
 
 returns a madlib array from the BtesToBits API.
+
+`meme() : array("title", "url", "link", "subreddit", "upvotes", "downvotes", "comments")`
+
+returns a meme from r/memes, r/dankmemes, r/me_irl or r/meirl.
+
+`reddit($subreddit : string, $limit = 0 : int) : array()`
+
+returns a list of fetched reddit posts.
+
+`lyrics($song : string, $artist : string) : array("title", "artist", "lyrics")`
+
+returns the lyrics of a song.
+
+`info() : array("uses", "limit", "next_reset")`
+
+returns information regarding your token.
