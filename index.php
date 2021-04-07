@@ -26,9 +26,7 @@
             else {
                 curl_close($curl);
                 return $result;
-            }
-            
-            
+            }   
         }
     }
 
