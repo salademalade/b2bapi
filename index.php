@@ -13,10 +13,10 @@
             $curl = curl_init();
             curl_setopt($curl, CURLOPT_URL, $this->base_url."text");
             curl_setopt($curl, CURLOPT_HTTPHEADER, $this->headers);
-            curl_setopt($curl, CURLOPT_HEADER, 0);
+            curl_setopt($curl, CURLOPT_HEADER, 1);
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-            curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
-            curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
             $result = curl_exec($curl);
             if (curl_error($curl)) {
                 $err = curl_error($curl);
@@ -26,7 +26,7 @@
             else {
                 curl_close($curl);
                 return $result;
-            }   
+            }
         }
     }
 
