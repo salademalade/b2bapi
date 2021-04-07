@@ -6,7 +6,7 @@ Welcome to the repository for the PHP BytesToBits Wrapper.
 
 Write:
 
-`composer require ichbinderwooj/b2bapi`
+```composer require ichbinderwooj/b2bapi```
 
 in your command line to install this package.
 
