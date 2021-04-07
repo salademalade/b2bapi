@@ -4,7 +4,7 @@
     "require": {
         "curl/curl": "^2.3"
     },
-    "license": "GNU",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "ichbinderwooj",
