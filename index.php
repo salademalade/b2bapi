@@ -13,7 +13,7 @@
             $curl = curl_init();
             curl_setopt($curl, CURLOPT_URL, $this->base_url."word");
             curl_setopt($curl, CURLOPT_HTTPHEADER, $this->headers);
-            curl_setopt($curl, CURLOPT_HEADER, 1);
+            curl_setopt($curl, CURLOPT_HEADER, 0);
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
             curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
@@ -32,7 +32,7 @@
             $curl = curl_init();
             curl_setopt($curl, CURLOPT_URL, $this->base_url."text");
             curl_setopt($curl, CURLOPT_HTTPHEADER, $this->headers);
-            curl_setopt($curl, CURLOPT_HEADER, 1);
+            curl_setopt($curl, CURLOPT_HEADER, 0);
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
             curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
@@ -51,7 +51,7 @@
             $curl = curl_init();
             curl_setopt($curl, CURLOPT_URL, $this->base_url."madlibs");
             curl_setopt($curl, CURLOPT_HTTPHEADER, $this->headers);
-            curl_setopt($curl, CURLOPT_HEADER, 1);
+            curl_setopt($curl, CURLOPT_HEADER, 0);
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
             curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
@@ -70,7 +70,7 @@
             $curl = curl_init();
             curl_setopt($curl, CURLOPT_URL, $this->base_url."meme");
             curl_setopt($curl, CURLOPT_HTTPHEADER, $this->headers);
-            curl_setopt($curl, CURLOPT_HEADER, 1);
+            curl_setopt($curl, CURLOPT_HEADER, 0);
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
             curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
@@ -89,7 +89,7 @@
             $curl = curl_init();
             curl_setopt($curl, CURLOPT_URL, $this->base_url."reddit");
             curl_setopt($curl, CURLOPT_HTTPHEADER, $this->headers);
-            curl_setopt($curl, CURLOPT_HEADER, 1);
+            curl_setopt($curl, CURLOPT_HEADER, 0);
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
             curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
@@ -108,7 +108,7 @@
             $curl = curl_init();
             curl_setopt($curl, CURLOPT_URL, $this->base_url."lyrics");
             curl_setopt($curl, CURLOPT_HTTPHEADER, $this->headers);
-            curl_setopt($curl, CURLOPT_HEADER, 1);
+            curl_setopt($curl, CURLOPT_HEADER, 0);
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
             curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
@@ -127,7 +127,7 @@
             $curl = curl_init();
             curl_setopt($curl, CURLOPT_URL, $this->base_url."info");
             curl_setopt($curl, CURLOPT_HTTPHEADER, $this->headers);
-            curl_setopt($curl, CURLOPT_HEADER, 1);
+            curl_setopt($curl, CURLOPT_HEADER, 0);
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
             curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
