@@ -2,6 +2,10 @@
 
 Welcome to the repository for the PHP BytesToBits Wrapper.
 
+## Getting started
+
+To use the BytesToBits API, you need a token. You can acquire one at https://api.bytestobits.dev by making an account.
+
 ## Installation
 
 Write:
@@ -29,7 +33,7 @@ $btb = new BytesToBits($myToken);
 echo $btb->text();
 ```
 
-## methods
+## Methods
 
 `word() : string`
 
