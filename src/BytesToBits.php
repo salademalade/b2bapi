@@ -1,5 +1,6 @@
 <?php
-namespace Ichbinderwooj\B2bapi;
+
+namespace BytesToBits;
 
 class BytesToBits {
     public $token;
