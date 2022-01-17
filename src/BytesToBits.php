@@ -3,8 +3,6 @@
 namespace BytesToBits;
 
 class BytesToBits {
-    public $token;
-
     function __construct($token) {
         $this->base_url = "https://api.bytestobits.dev/";
         $this->headers = array(
