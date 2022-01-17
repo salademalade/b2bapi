@@ -21,7 +21,9 @@ in your command line to install this package.
 To use this wrapper, declare a variable with the `BytesToBits` class and your token. For example:
 
 ```php
-$btb = new BytesToBits($myToken);
+require "vendor/autoload.php";
+
+$btb = new BytesToBits\BytesToBits($myToken);
 ```
 
 Then you can use the methods of this class to access each endpoint.
@@ -29,7 +31,9 @@ Then you can use the methods of this class to access each endpoint.
 For example:
 
 ```php
-$btb = new BytesToBits($myToken);
+require "vendor/autoload.php";
+
+$btb = new BytesToBits\BytesToBits($myToken);
 echo $btb->text();
 ```
 
