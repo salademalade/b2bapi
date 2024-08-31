@@ -1,5 +1,7 @@
 # PHP BytesToBits Wrapper
 
+**This library is now defunct due to breaking changes in the BytesToBits API.**
+
 Welcome to the repository for the PHP BytesToBits Wrapper.
 
 ## Getting started
